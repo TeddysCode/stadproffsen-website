@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Städproffsen i Skåne — Professionell Städservice i Kristianstad & hela Skåne</title>
+    <meta name="description"
+        content="Städproffsen är ett allserviceföretag i Kristianstad. Hemstädning, flyttstädning, kontorsstädning, fönsterputs och mer. 50% RUT-avdrag. Garanti på allt arbete.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stadproffsen.css">
+</head>
+
+<body>
+
+    <!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Städproffsen logotyp" class="nav-logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="#tjänster">Tjänster</a>
+                <a href="#recensioner">Recensioner</a>
+                <a href="#galleri">Galleri</a>
+                <a href="#faq">FAQ</a>
+                <a href="#kontakt">Kontakt</a>
+                <a href="#kontakt" class="nav-cta">Offertförfrågan</a>
+            </div>
+            <button class="nav-mobile-btn" id="mobileBtn" aria-label="Öppna meny">☰</button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#tjänster">Tjänster</a>
+            <a href="#recensioner">Recensioner</a>
+            <a href="#galleri">Galleri</a>
+            <a href="#faq">FAQ</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="#kontakt" class="mobile-cta">Offertförfrågan</a>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+     HERO
+     ============================================================ -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                alt="Modernt skandinaviskt hem med rena ytor och naturligt ljus" referrerpolicy="no-referrer">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">Allserviceföretag i Kristianstad & hela Skåne</span>
+            <h1>Bredden är vår <em>styrka</em></h1>
+            <p>Från hemstädning till fasadtvätt — Städproffsen levererar professionell service med garanti.
+                Miljöcertifierade produkter, kollektivavtal och alltid till fast pris.</p>
+            <div class="hero-buttons">
+                <a href="#kontakt" class="btn-primary">Offertförfrågan <span class="arrow">→</span></a>
+                <a href="#tjänster" class="btn-outline">Se våra tjänster</a>
+            </div>
+        </div>
+        <div class="hero-badges">
+            <div class="hero-badges-inner">
+                <span><b class="badge-icon">🛡</b> Garanti på allt arbete</span>
+                <span><b class="badge-icon">🌿</b> Miljöcertifierade produkter</span>
+                <span><b class="badge-icon">⭐</b> 4.8/5 på Google</span>
+                <span><b class="badge-icon">%</b> 50% RUT-avdrag</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     SERVICES
+     ============================================================ -->
+    <section class="section services-section" id="tjänster">
+        <div class="container">
+            <div class="section-center reveal">
+                <h2>Våra Tjänster</h2>
+                <p>Professionella lösningar för hem, företag och fastigheter — alltid med garanti på utfört arbete.</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="services-grid reveal-stagger">
+                <div class="service-card reveal" style="--i:0">
+                    <div class="service-card-img">
+                        <img src="images/hemstadning.png" alt="Hemstädning — professionell städning av hem">
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-icon">✦</div>
+                        <h3>Hemstädning</h3>
+                        <p>Regelbunden hemstädning anpassad efter dina behov. Vi ser till att ditt hem alltid är fräscht
+                            och skinande rent.</p>
+                        <a href="#kontakt" class="service-link">Läs mer <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="--i:1">
+                    <div class="service-card-img">
+                        <img src="images/flyttstadning.png" alt="Flyttstädning med besiktningsgaranti">
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-icon">✓</div>
+                        <h3>Flyttstädning</h3>
+                        <p>Garanterad godkänd besiktning. Vi kan vara med på besiktningen så du känner dig helt säker på
+                            att allt går smärtfritt.</p>
+                        <a href="#kontakt" class="service-link">Läs mer <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="--i:2">
+                    <div class="service-card-img">
+                        <img src="images/storstadning.png" alt="Storstädning av hela hemmet">
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-icon">♥</div>
+                        <h3>Storstädning</h3>
+                        <p>Grundlig städning av hela hemmet — perfekt inför högtider, säsongsbyten eller när hemmet
+                            behöver extra kärlek.</p>
+                        <a href="#kontakt" class="service-link">Läs mer <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="--i:3">
+                    <div class="service-card-img">
+                        <img src="images/fonsterputs.png" alt="Professionell fönsterputs">
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-icon">⭐</div>
+                        <h3>Fönsterputs</h3>
+                        <p>Ränderfria fönster med miljövänliga metoder. Släpp in ljuset — en skillnad du ser direkt.</p>
+                        <a href="#kontakt" class="service-link">Läs mer <span class="arrow">→</span></a>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="--i:4">
+                    <div class="service-card-img">
+                        <img src="images/kontorsstadning.png" alt="Kontorsstädning för företag">
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-icon">🏢</div>
+                        <h3>Kontorsstädning</h3>
+                        <p>Ge ditt team en fräsch arbetsmiljö. Regelbunden eller engångsstädning för kontor och
+                            verksamheter i hela Skåne.</p>
+                        <a href="#kontakt" class="service-link">Läs mer <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     RUT-AVDRAG
+     ============================================================ -->
+    <section class="section rut-section">
+        <div class="container">
+            <div class="rut-grid">
+                <div class="reveal">
+                    <div class="rut-badge">🧮 Spara pengar</div>
+                    <h2>Spara 50% med <span>RUT-avdrag</span></h2>
+                    <p class="rut-text">Som privatperson har du rätt att dra av 50% av arbetskostnaden för hushållsnära
+                        tjänster som städning. Det innebär att du betalar hälften — vi sköter all administration åt dig.
+                    </p>
+                    <ul class="rut-list">
+                        <li><span class="check">✓</span> Vi ansöker om avdraget direkt — inga blanketter för dig</li>
+                        <li><span class="check">✓</span> Gäller hemstädning, flyttstädning, storstädning och fönsterputs
+                        </li>
+                        <li><span class="check">✓</span> Max 75 000 kr per person och år</li>
+                        <li><span class="check">✓</span> Du ser priset efter RUT direkt i vår offert</li>
+                    </ul>
+                    <a href="#kontakt" class="btn-forest">Få din offert med RUT <span class="arrow">→</span></a>
+                </div>
+                <div class="reveal">
+                    <div class="rut-card">
+                        <h3>Prisexempel: Hemstädning</h3>
+                        <div class="rut-row">
+                            <span>Arbetskostnad</span>
+                            <span>2 290 kr</span>
+                        </div>
+                        <div class="rut-row green">
+                            <span>RUT-avdrag (50%)</span>
+                            <span>−1 145 kr</span>
+                        </div>
+                        <div class="rut-total">
+                            <span>Du betalar</span>
+                            <span>1 145 kr</span>
+                        </div>
+                        <p class="note">Prisexempel baserat på en 3:a, 75 kvm. Exakt pris anpassas efter ditt hem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     REVIEWS
+     ============================================================ -->
+    <section class="section reviews-section" id="recensioner">
+        <div class="container">
+            <div class="reviews-header reveal">
+                <div style="max-width:36rem">
+                    <h2>Vad våra kunder säger</h2>
+                    <p>Vi är stolta över att ha hundratals nöjda kunder i Kristianstad och hela Skåne. Här är några
+                        röster.</p>
+                </div>
+                <div class="google-rating">
+                    <div class="stars">★★★★★</div>
+                    <span class="rating-num">4.8/5</span>
+                    <span class="rating-sub">på Google Reviews</span>
+                </div>
+            </div>
+
+            <div class="reviews-grid reveal-stagger">
+                <div class="review-card reveal" style="--i:0">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Hemstädning</span></div>
+                    <blockquote>"Har anlitat Städproffsen i snart två år för regelbunden hemstädning. Alltid punktliga,
+                        noggranna och otroligt trevliga. Bästa städfirman vi haft!"</blockquote>
+                    <div><span class="review-author">— Maria Lindqvist</span> <span
+                            class="review-location">Kristianstad</span></div>
+                </div>
+                <div class="review-card reveal" style="--i:1">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Flyttstädning</span></div>
+                    <blockquote>"Flyttstädningen var helt fantastisk. Besiktningen gick igenom utan en enda anmärkning
+                        och hyresvärden var imponerad. Dessutom var de med på besiktningen — helt tryggt!"</blockquote>
+                    <div><span class="review-author">— Anders Persson</span> <span
+                            class="review-location">Hässleholm</span></div>
+                </div>
+                <div class="review-card reveal" style="--i:2">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Kontorsstädning</span></div>
+                    <blockquote>"Vi anlitar Städproffsen för vårt kontor i Kristianstad. Snabb återkoppling, trevligt
+                        bemötande och kontoret har aldrig sett bättre ut. Personalen märker skillnaden!"</blockquote>
+                    <div><span class="review-author">— Karin Ohlsson</span> <span
+                            class="review-location">Kristianstad</span></div>
+                </div>
+                <div class="review-card reveal" style="--i:3">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Storstädning</span></div>
+                    <blockquote>"Bokade storstädning inför påsken. Alla skåp, lister, ventiler — allt blev skinande
+                        rent. Uppskattar att de använder miljövänliga produkter, perfekt med tanke på barnen."
+                    </blockquote>
+                    <div><span class="review-author">— Henrik Johansson</span> <span
+                            class="review-location">Broby</span></div>
+                </div>
+                <div class="review-card reveal" style="--i:4">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Fönsterputs</span></div>
+                    <blockquote>"Anlitade Städproffsen för fönsterputs på hela villan — 24 fönster. Ränderfritt och
+                        proffsigt. Bra pris dessutom, speciellt med RUT-avdraget."</blockquote>
+                    <div><span class="review-author">— Eva Nilsson</span> <span class="review-location">Hörby</span>
+                    </div>
+                </div>
+                <div class="review-card reveal" style="--i:5">
+                    <div class="review-quote">"</div>
+                    <div class="review-stars">★★★★★ <span class="review-service">— Hemstädning</span></div>
+                    <blockquote>"Vilken lättnad att komma hem till ett fräscht och städat hem varje vecka. Städproffsen
+                        levererar varje gång. Kan verkligen varmt rekommendera dem!"</blockquote>
+                    <div><span class="review-author">— Thomas Bergström</span> <span
+                            class="review-location">Sjöbo</span></div>
+                </div>
+            </div>
+
+            <div class="reviews-more reveal">
+                <a href="https://www.google.com/maps/place/St%C3%A4dproffsen+i+Sk%C3%A5ne+AB/" target="_blank"
+                    rel="noopener">Läs fler recensioner på Google <span class="arrow">→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     BEFORE / AFTER GALLERY
+     ============================================================ -->
+    <section class="section gallery-section" id="galleri">
+        <div class="container">
+            <div class="section-center reveal">
+                <h2>Före &amp; Efter</h2>
+                <p>Se skillnaden vi gör i verkliga hem — det är det vi kallar Städproffsen-kvalitet.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="reveal">
+                    <div class="gallery-pair">
+                        <div class="gallery-img">
+                            <img src="images/kok_fore.png" alt="Kök före städning">
+                            <div class="gallery-label label-before">Före</div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/kok_efter.png" alt="Kök efter städning">
+                            <div class="gallery-label label-after">Efter</div>
+                        </div>
+                    </div>
+                    <div class="gallery-title">Kökssanering</div>
+                </div>
+                <div class="reveal">
+                    <div class="gallery-pair">
+                        <div class="gallery-img">
+                            <img src="images/vardagsrum_fore.png" alt="Vardagsrum före städning">
+                            <div class="gallery-label label-before">Före</div>
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/vardagsrum_efter.png" alt="Vardagsrum efter städning">
+                            <div class="gallery-label label-after">Efter</div>
+                        </div>
+                    </div>
+                    <div class="gallery-title">Vardagsrum</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     FAQ
+     ============================================================ -->
+    <section class="section faq-section" id="faq">
+        <div class="faq-container">
+            <div class="section-center reveal">
+                <h2>Vanliga frågor</h2>
+                <p>Allt du behöver veta om våra tjänster. Hittar du inte svaret? Kontakta oss direkt.</p>
+            </div>
+            <div class="reveal">
+                <div class="faq-item open">
+                    <button class="faq-question">Vad kostar en hemstädning? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Priset beror på bostadens storlek och hur ofta du vill ha städning. En vanlig hemstädning av
+                            en 3:a (ca 75 kvm) kostar typiskt 2 290 kr, eller 1 145 kr efter RUT-avdrag. Vi ger dig
+                            alltid ett fast pris i förväg — inga överraskningar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Hur fungerar RUT-avdraget? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>RUT-avdrag innebär att du som privatperson får 50% rabatt på arbetskostnaden för hushållsnära
+                            tjänster. Vi ansöker om avdraget hos Skatteverket och drar av beloppet direkt på fakturan.
+                            Max 75 000 kr per person och år.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Vad händer om jag inte är nöjd? <span
+                            class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vi lämnar garanti på att arbetet utförts fackmannamässigt. Om du inte är helt nöjd med
+                            städningen, meddela oss inom 24
+                            timmar så åtgärdar vi det som missats — helt utan extra kostnad.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Vilka produkter använder ni? <span
+                            class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vi använder i störst möjliga mån miljöcertifierade produkter. Våra medel är
+                            skonsamma mot både ytor och miljö, men effektiva mot smuts. Perfekt om du har barn, husdjur
+                            eller allergier.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Hur hanterar ni nycklar och larmkoder? <span
+                            class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vi har strikta säkerhetsrutiner för nyckelhantering. Alla nycklar förvaras säkert och märks
+                            aldrig med adress. Våra medarbetare är bakgrundskontrollerade och försäkrade.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Vilka områden verkar ni i? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vi är baserade i Kristianstad men verksamma i hela södra Sverige. Vi har många uppdrag i
+                            Broby, Hässleholm, Hörby, Sölvesborg, Bromölla, Sjöbo och Lund. Kontakta oss så ser vi om vi
+                            kan hjälpa dig!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Hur bokar jag en städning? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Fyll i vårt kontaktformulär nedan eller ring oss direkt. Vi återkommer inom 24 timmar med ett
+                            kostnadsfritt och helt förutsättningslöst prisförslag anpassat efter dina behov.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Vad ingår i en flyttstädning? <span
+                            class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vår flyttstädning täcker allt som krävs för godkänd besiktning: ugn, kyl, frys, badrum, kök,
+                            garderober, fönster (insida), lister, kontakter och golv. Vi lämnar garanti på att
+                            besiktningen godkänns och kan vara med på plats.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Hur snabbt kan ni komma? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Vid regelbunden hemstädning kan vi vanligtvis starta inom 1–2 veckor. Flyttstädning och
+                            storstädning kan ofta bokas med kortare varsel. Ring oss för akuta behov — vi gör alltid
+                            vårt bästa!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Är ni försäkrade? <span class="faq-chevron">▾</span></button>
+                    <div class="faq-answer">
+                        <p>Ja, vi har fullständig ansvarsförsäkring. Alla våra medarbetare
+                            omfattas. Vi har F-skattsedel och kollektivavtal med berörda branscher.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     TEAM
+     ============================================================ -->
+    <section class="section team-section">
+        <div class="container">
+            <div class="section-center reveal">
+                <h2>Personerna bakom renligheten</h2>
+                <p>Möt vårt dedikerade team — erfarna, utbildade och alltid med kvalitet i fokus.</p>
+            </div>
+            <div class="team-grid reveal-stagger">
+                <div class="team-member reveal" style="--i:0">
+                    <div class="team-avatar" style="background:var(--forest)">FB</div>
+                    <h4>Fredrik</h4>
+                    <p>Grundare & VD</p>
+                </div>
+                <div class="team-member reveal" style="--i:1">
+                    <div class="team-avatar" style="background:var(--forest-80)">MI</div>
+                    <h4>Mats</h4>
+                    <p>Driftsansvarig</p>
+                </div>
+                <div class="team-member reveal" style="--i:2">
+                    <div class="team-avatar" style="background:var(--navy)">JB</div>
+                    <h4>Jennie</h4>
+                    <p>Kundservice</p>
+                </div>
+                <div class="team-member reveal" style="--i:3">
+                    <div class="team-avatar" style="background:var(--forest-70)">CB</div>
+                    <h4>Celine</h4>
+                    <p>Kvalitetsansvarig</p>
+                </div>
+                <div class="team-member reveal" style="--i:4">
+                    <div class="team-avatar" style="background:var(--navy-80)">MK</div>
+                    <h4>Mick</h4>
+                    <p>Flyttstädning</p>
+                </div>
+                <div class="team-member reveal" style="--i:5">
+                    <div class="team-avatar" style="background:var(--forest)">BB</div>
+                    <h4>Berg</h4>
+                    <p>Team Lead</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     TRUST & ENVIRONMENT
+     ============================================================ -->
+    <section class="section trust-section">
+        <div class="container">
+            <div class="section-center reveal">
+                <div class="trust-icon-big">🛡</div>
+                <h2>Trygghet & Miljö</h2>
+                <p>Ditt hem är din privata borg. Vi tar det på största allvar — med garantier, försäkringar och
+                    miljöcertifierade metoder.</p>
+            </div>
+            <div class="trust-grid reveal-stagger">
+                <div class="trust-card reveal" style="--i:0">
+                    <div class="trust-card-icon">🛡</div>
+                    <h4>Garanti på allt arbete</h4>
+                    <p>Arbetet utförs fackmannamässigt — alltid.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:1">
+                    <div class="trust-card-icon">🌿</div>
+                    <h4>Miljöcertifierade produkter</h4>
+                    <p>Miljövänliga medel, skonsamma för dig och naturen.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:2">
+                    <div class="trust-card-icon">✓</div>
+                    <h4>F-skatt & försäkring</h4>
+                    <p>Fullständig ansvarsförsäkring för alla uppdrag.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:3">
+                    <div class="trust-card-icon">👥</div>
+                    <h4>Kollektivavtal</h4>
+                    <p>Schyssta villkor, rättvisa löner och trygg anställning.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:4">
+                    <div class="trust-card-icon">📋</div>
+                    <h4>Bakgrundskontroller</h4>
+                    <p>Alla medarbetare kontrolleras och utbildas internt.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:5">
+                    <div class="trust-card-icon">💼</div>
+                    <h4>Mångårig erfarenhet</h4>
+                    <p>Hundratals nöjda kunder i Kristianstad och hela Skåne.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:6">
+                    <div class="trust-card-icon">⏰</div>
+                    <h4>Snabb återkoppling</h4>
+                    <p>Vi bearbetar ditt ärende samma dag.</p>
+                </div>
+                <div class="trust-card reveal" style="--i:7">
+                    <div class="trust-card-icon">♥</div>
+                    <h4>Personlig service</h4>
+                    <p>Långsiktiga kundrelationer är vår grundpelare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     CONTACT
+     ============================================================ -->
+    <section class="section contact-section" id="kontakt">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="reveal">
+                    <h2>Begär en <span>kostnadsfri</span> offert</h2>
+                    <p class="contact-intro">Fyll i formuläret så återkommer vi inom 24 timmar med ett prisförslag
+                        anpassat efter dina behov. Helt kostnadsfritt och utan köpkrav.</p>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <input type="text" class="form-field" placeholder="Förnamn" required>
+                            <input type="text" class="form-field" placeholder="Efternamn" required>
+                        </div>
+                        <input type="email" class="form-field" placeholder="E-postadress" required>
+                        <input type="tel" class="form-field" placeholder="Telefonnummer" required>
+                        <select class="form-field" required>
+                            <option value="">Välj tjänst</option>
+                            <option value="hemstadning">Hemstädning</option>
+                            <option value="flyttstadning">Flyttstädning</option>
+                            <option value="storstadning">Storstädning</option>
+                            <option value="fonsterputs">Fönsterputs</option>
+                            <option value="kontorsstadning">Kontorsstädning</option>
+                            <option value="tak-fasad">Tak- & fasadtvätt</option>
+                            <option value="klottersanering">Klottersanering</option>
+                        </select>
+                        <textarea class="form-field" rows="3" placeholder="Beskriv ditt behov (valfritt)"></textarea>
+                        <button type="submit" class="btn-submit">Skicka förfrågan <span class="arrow">➤</span></button>
+                        <p class="form-note">Genom att skicka accepterar du vår integritetspolicy. Vi delar aldrig dina
+                            uppgifter.</p>
+                    </form>
+                </div>
+
+                <div class="contact-right reveal">
+                    <div>
+                        <h3>Kontaktuppgifter</h3>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📞</div>
+                            <div>
+                                <p class="contact-info-label">Telefon</p>
+                                <p class="contact-info-value"><a href="tel:+46447810070">044-781 00 70</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">✉</div>
+                            <div>
+                                <p class="contact-info-label">E-post</p>
+                                <p class="contact-info-value"><a
+                                        href="mailto:info@stadproffsen.nu">info@stadproffsen.nu</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">📍</div>
+                            <div>
+                                <p class="contact-info-label">Adress</p>
+                                <p class="contact-info-value">Fäladsgatan 7, 291 59 Kristianstad</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="callback-box">
+                        <div class="callback-header">
+                            <div class="callback-icon">📞</div>
+                            <div>
+                                <h4>Vi ringer upp dig!</h4>
+                                <p>Lämna ditt nummer så hör vi av oss inom en timme.</p>
+                            </div>
+                        </div>
+                        <div class="callback-form">
+                            <input type="tel" id="callbackInput" class="callback-input"
+                                placeholder="Ditt telefonnummer">
+                            <button id="callbackBtn" class="callback-btn">Ring mig</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+     FOOTER
+     ============================================================ -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Städproffsen logotyp" class="footer-logo-img">
+                </div>
+                <p>Din partner för städning, fastighetsservice och ett renare hem. Med fokus på kvalitet, miljö och
+                    långsiktiga kundrelationer levererar vi tjänster som gör skillnad.</p>
+                <p class="area-text">Verksamma i hela södra Sverige — Kristianstad, Hässleholm, Broby, Hörby,
+                    Sölvesborg, Bromölla, Sjöbo och Lund.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/stadproffsen/" class="social-link"
+                        aria-label="Följ oss på Facebook" target="_blank" rel="noopener">f</a>
+                </div>
+            </div>
+            <div>
+                <h4>Kontakt</h4>
+                <ul class="footer-contact">
+                    <li>📞 044-781 00 70</li>
+                    <li>✉ info@stadproffsen.nu</li>
+                    <li>📍 Fäladsgatan 7, Kristianstad</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Tjänster</h4>
+                <ul class="footer-links">
+                    <li><a href="#tjänster">Hemstädning</a></li>
+                    <li><a href="#tjänster">Flyttstädning</a></li>
+                    <li><a href="#tjänster">Storstädning</a></li>
+                    <li><a href="#tjänster">Fönsterputs</a></li>
+                    <li><a href="#tjänster">Kontorsstädning</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Städproffsen i Skåne AB. Alla rättigheter förbehållna.</span>
+            <div class="footer-bottom-links">
+                <a href="#">Integritetspolicy</a>
+                <a href="#">Allmänna villkor</a>
+                <a href="#">Jobba hos oss</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY CTA -->
+    <div class="sticky-cta" id="stickyCta">
+        <a href="#kontakt">Offertförfrågan <span class="arrow">→</span></a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="stadproffsen.js"></script>
+</body>
+
+</html>
